@@ -1,0 +1,213 @@
+#wrap{
+    width: 100%;
+    
+}
+header{
+    text-align: center;
+    height: 81px;
+    width: 100%;
+    position: relative;
+}
+header h1{
+    position: absolute;
+    left: 50px;
+    top: 0;
+    padding: 14px 0 0;
+}
+header h1 a{
+    color: transparent;
+    display: block;
+    width: 110px;
+    height: 48px;
+    background: url(../image/sp_com.png) no-repeat -300px 0;
+}
+header .menu_bg{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    height: 0;
+    overflow: hidden;
+    background-color: rgba(45, 91, 121, 0.9);
+    z-index: 99999;
+}
+header .main_menu:hover .menu_bg{
+    height: 210px;
+}
+header .main_menu .depth_01{
+    display: flex;
+    justify-content: center;
+    height: 81px;
+}
+header .main_menu .depth_01 > li{
+    flex-basis: 115px;
+    position: relative;
+}
+header .main_menu .depth_01 > li > a{
+    display: block;
+    height: 81px;
+    line-height: 81px;
+    font-size: 18px;
+    font-weight: 300;
+}
+header .main_menu .depth_01 > li > a > span{
+    position: relative;
+}
+header .main_menu .depth_01 > li:hover > a > span{
+    color: #2d5b79;
+    font-weight: bold;
+}
+header .main_menu .depth_01 > li:hover > a span:after{
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #2d5b79;
+    position: absolute;
+    width: 100%;
+    bottom: -9px;
+    left: 0;
+}
+header .main_menu .depth_02{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    margin: 15px 0;
+    z-index: 99999;
+}
+header .main_menu .depth_02 > li{}
+header .main_menu .depth_02 > li > a{
+    display: block;
+    line-height: 30px;  
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+}
+header .main_menu:hover .depth_02{
+    height: 240px;
+}
+header .sub_menu{
+    position: absolute;
+    right: 50px;
+    top: 0;
+    width: 240px;
+}
+header .sub_menu > ul{
+    display: flex;
+    justify-content: space-between;
+}
+header .sub_menu > ul > li{
+    position: relative;
+    flex-basis: 25%;
+}
+header .sub_menu > ul > li > a{
+    display: block;
+    font-size: 13px;
+    font-weight: 200;  
+    line-height: 81px;
+}
+header .sub_menu > ul > li:after{
+    content: "";
+    width: 1px;
+    height: 8px;
+    background-color: #ccc;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 4px);
+}
+header .sub_menu > ul > li:first-child:after{
+    display: none;
+}
+#slide_box_01{
+    padding: 0 50px;
+}
+#slide_box_01 .bx-wrapper{ 
+-moz-box-shadow: none; 
+-webkit-box-shadow: none; 
+box-shadow: none; 
+border: 0;
+margin-bottom: 0; 
+}
+#slide_box_01 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager{
+    width: 100% !important;
+    text-align: center !important;
+}
+#slide_box_01 .bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager{
+    bottom: 20px !important;
+}
+#slide_box_01 .bx-wrapper #slide_01 li img{
+    height: 690px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product a{
+    color: #001829;
+    font-size: 15px;
+    display: block;
+}
+.product a:hover{
+    color: #2d5b79;
+    font-weight: bold;
+}
+.product a:before{
+    content:"";
+    display: block;
+    width: 64px;
+    height: 52px;
+    background: url(../image/sp_com.png) no-repeat ;
+}
+.product ul{
+    width: 1044px;
+    margin: 0 auto;
+    padding: 46px 0 41px;
+}
+.product ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.product li{
+    float: left;
+    padding: 0 55px;
+    text-align: center;
+}
+.product li:nth-child(1) a:before{
+    background-position: -3px -118px;
+}
+.product li:nth-child(2) a:before{
+    background-position: -75px -118px;
+}
+.product li:nth-child(3) a:before{
+    background-position: -148px -118px;
+}
+.product li:nth-child(4) a:before{
+    background-position: -219px -118px;
+}
+.product li:nth-child(5) a:before{
+    background-position: -292px -118px;
+}
+.product li:nth-child(6) a:before{
+    background-position: -364px -118px;
+}
+
+.product li:nth-child(1) a:hover:before{
+    background-position: -3px -184px;
+}
+.product li:nth-child(2) a:hover:before{
+    background-position: -75px -184px;
+}
+.product li:nth-child(3) a:hover:before{
+    background-position: -148px -184px;
+}
+.product li:nth-child(4) a:hover:before{
+    background-position: -219px -184px;
+}
+.product li:nth-child(5) a:hover:before{
+    background-position: -292px -184px;
+}
+.product li:nth-child(6) a:hover:before{
+    background-position: -364px -184px;
+}
